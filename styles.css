@@ -12,6 +12,7 @@
   left: 0;
   top: 0;
   overflow: auto;
+  background-color: darkorange;
 }
 
 .app {
@@ -27,4 +28,10 @@
   font-size: 70%;
   color: gray;
   text-align: right;
+}
+.name{
+  color: black !important;
+}
+.ausgabe {
+  margin: 20px;
 }

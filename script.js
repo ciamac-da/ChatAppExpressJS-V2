@@ -37,7 +37,7 @@ const datenAusgeben = (msgs)=> {
   for ( message of msgs ){
     let { img, msg, name, date } = message;
     ausgabe.innerHTML += `
-      <div class="alert alert-${name === nick.innerHTML ? 'info' : 'warning' }" role="alert">
+      <div class="alert alert-${name === nick.innerHTML ? 'success' : 'primary' }" role="alert">
         <b>${name}:</b> ${msg}
         <span class="datum">
         <i>
