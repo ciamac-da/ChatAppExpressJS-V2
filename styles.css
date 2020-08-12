@@ -1,0 +1,30 @@
+.eingabe-gruppe {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.ausgabe-panel {
+  position: absolute;
+  bottom: 1.5em;
+  right: 0;
+  left: 0;
+  top: 0;
+  overflow: auto;
+}
+
+.app {
+  position: fixed;
+  top: 1ch;
+  left: 1ch;
+  bottom: 1ch;
+  right: 1ch;
+}
+
+.datum {
+  display: block;
+  font-size: 70%;
+  color: gray;
+  text-align: right;
+}
